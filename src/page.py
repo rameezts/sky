@@ -14,4 +14,5 @@ def api_article(articleid):
     return 'You are reading ' + articleid
 
 if __name__ == '__main__':
-    app.run()
+    #app.run()
+    app.run(host="0.0.0.0")
